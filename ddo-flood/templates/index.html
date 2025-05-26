@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Send Requests</title>
+</head>
+<body>
+    <h1>Send Requests</h1>
+    <button id="start-btn">Start Sending</button>
+    <button id="stop-btn">Stop Sending</button>
+    <script src="/send_requests.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDoS Attack Simulation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="simulation-body">
+    <div class="header">
+        <div class="logo-container">
+            <span class="logo-icon">🛡️</span>
+            <h1>DDoS Attack Simulator</h1>
+        </div>
+        <p class="subtitle">Security Testing & Analysis Tool</p>
+    </div>
+
+    <div class="container">
+        <div class="info-section">
+            <div class="info-card">
+                <h2>About This Tool</h2>
+                <p>This simulator helps understand DDoS attacks by demonstrating how rapid request flooding can impact servers.</p>
+            </div>
+            
+            <div class="stats-card">
+                <h3>Statistics</h3>
+                <div id="request-count">Total Requests: 0</div>
+                <div id="rate-display">Current Rate: 0 req/sec</div>
+            </div>
+        </div>
+
+        <div class="control-section">
+            <div class="button-container">
+                <button id="start-btn" class="action-btn">
+                    <span class="btn-icon">▶️</span>
+                    Start Attack Simulation
+                </button>
+            </div>
+        </div>
+
+        <div class="alerts-section">
+            <h3>Attack Detection Log</h3>
+            <div id="message" class="alerts-container"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='send_requests.js') }}"></script>
+</body>
+</html>

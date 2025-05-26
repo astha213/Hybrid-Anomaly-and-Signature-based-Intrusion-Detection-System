@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Blocked</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="blocked-body">
+    <div class="blocked-container">
+        <div class="blocked-content">
+            <div class="blocked-icon">🚫</div>
+            <h1>Access Blocked</h1>
+            <p class="blocked-message">Your IP address has been blocked due to suspicious activity.</p>
+            <div class="blocked-details">
+                <p>Reason: DoS Attack Detected</p>
+                <p>IP Address: {{ request.remote_addr }}</p>
+            </div>
+            <div class="blocked-info">
+                <p>This IP address has been identified as a potential security threat and has been blocked from accessing this service.</p>
+                <p>If you believe this is an error, please contact the system administrator.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

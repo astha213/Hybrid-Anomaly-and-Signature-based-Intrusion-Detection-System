@@ -1,0 +1,15 @@
+2025-04-20 16:01:36,580 - INFO - Server initialized for threading.
+2025-04-20 16:01:37,504 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.203.233:3000
+2025-04-20 16:01:37,504 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 16:02:17,922 - INFO - 192.168.203.233 - - [20/Apr/2025 16:02:17] "GET / HTTP/1.1" 200 -
+2025-04-20 16:02:17,973 - INFO - 192.168.203.233 - - [20/Apr/2025 16:02:17] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-04-20 16:02:18,113 - INFO - 192.168.203.233 - - [20/Apr/2025 16:02:18] "GET /send_requests.js HTTP/1.1" 200 -
+2025-04-20 16:04:03,607 - INFO - Server initialized for threading.
+2025-04-20 16:04:04,551 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.203.233:3000
+2025-04-20 16:04:04,551 - INFO - [33mPress CTRL+C to quit[0m

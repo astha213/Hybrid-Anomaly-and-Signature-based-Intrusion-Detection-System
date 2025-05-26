@@ -1,0 +1,122 @@
+.profile-body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: #75e2e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.vupune.ac.in/images/phocagallery/Infrastructure/Building_VU_2-min.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.form-v10-content {
+    background: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .15);
+    margin: 95px auto;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-v10-content h2 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 34px;
+    color: #2271dd;
+}
+
+.form-v10-content .form-group {
+    margin-bottom: 24px;
+}
+
+.form-v10-content .form-row {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.form-v10-content input[type="text"],
+.form-v10-content input[type="email"],
+.form-v10-content input[type="date"] {
+    width: 100%;
+    padding: 11.5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-v10-content select {
+    width: 100%;
+    padding: 11.5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.form-v10-content .form-checkbox {
+    margin-top: 37px;
+    position: relative;
+}
+
+.form-v10-content .form-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+}
+
+.form-v10-content .form-checkbox .checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-v10-content .form-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #2271dd;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.form-v10-content .form-checkbox input[type="checkbox"]:checked + .checkmark:after {
+    display: block;
+}
+
+.form-v10-content .form-checkbox p {
+    margin-left: 34px;
+    color: #666;
+    font-size: 14px;
+}
+
+.form-v10-content button[type="submit"] {
+    background-color: #2271dd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form-v10-content button[type="submit"]:hover {
+    background-color: #18529a;
+}
